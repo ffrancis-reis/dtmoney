@@ -1,5 +1,5 @@
-import { darken, transparentize } from "polished";
 import styled from "styled-components";
+import { darken, transparentize } from "polished";
 
 export const Container = styled.form`
   h2 {
