@@ -1,48 +1,44 @@
-# Getting Started with Create React App
+# Ethereum DApp for Property Claim by mint tokens on a Real Estate Marketplace
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Introduction
 
-## Available Scripts
+This is a simple financial project built with ReactJS library.
 
-In the project directory, you can run:
+**Important**: The project was made with the versions below:
 
-### `yarn start`
+- Node v14.17.6
+- ReactJS v17.0.2
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Important**: The project didn't use any external **libraries** worth mentioning and also didn't use any database persistence. It was also created with [Create React App](https://github.com/facebook/create-react-app).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Getting Started
 
-### `yarn test`
+1. Clone this repository.
+2. Install the dependencies with [NodeJS](https://nodejs.org/en/) and NPM.
+3. Test the application by running it and creating a transaction.
+4. Take a look at the transactions list on the dashboard.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Dependencies
 
-### `yarn build`
+1. Install [Yarn](https://yarnpkg.com/) package. Yarn is a package manager similar to NPM.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Install the dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```powershell
+  yarn
+```
 
-### `yarn eject`
+2. Run the app:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```powershell
+  yarn start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Create a new transaction by clicking on the New Transaction button, fill up the form and submit it by clicking on the Send button.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Output
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Here is an example of the app running.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-![image](https://user-images.githubusercontent.com/29313947/135478158-45cfa31c-79fd-480d-9cea-2f7afbb27de8.png)
